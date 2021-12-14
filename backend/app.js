@@ -1,9 +1,9 @@
 
 const express=require("express");
 const productData=require('./src/model/ProductData');
-const cors=require('cors');
+// const cors=require('cors');
 //const bodyParser = require('body-parser');
-const jwt=require('jsonwebtoken');
+// const jwt=require('jsonwebtoken');
 const port = process.env.PORT || 3300;
 
 const app=new express();
@@ -11,7 +11,7 @@ const app=new express();
  app.use(express.urlencoded({extended: true})); 
  app.use(express.json()); 
 //app.use(bodyParser.json());
-app.use(cors());
+// app.use(cors());
 
 // username="admin";
 // password="12345";

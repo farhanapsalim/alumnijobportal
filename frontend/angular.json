@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "AngularAlumniJobPortal"
+  "defaultProject": "AngularAlumniJobPortal",
+  "cli": {
+    "analytics": false
+  }
 }
