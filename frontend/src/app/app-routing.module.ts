@@ -6,9 +6,9 @@ import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
-  {path:"/header", component: HeaderComponent},
-  {path:"/footer", component: FooterComponent},
-  {path:"/home", component: HomeComponent}
+  {path:'header', component: HeaderComponent},
+  {path:'footer', component: FooterComponent},
+  {path:'home', component: HomeComponent}
 
 
 ];
